@@ -1,0 +1,7 @@
+host: '172.26.226.16'
+port: 8848
+namespace: 'f85a7cb6-ef6b-4ce4-86a5-5b07f75bbe38'
+user: 'nacos'
+password: 'nacos'
+dataid: 'smartChat-srv.json'
+group: 'dev'

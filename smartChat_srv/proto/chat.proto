@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package = "./;proto";
+
+service ChatService {
+  // 处理用户消息（核心接口）
+  rpc ProcessMessage (ChatRequest) returns (ChatResponse);
+
+}
+
+message ChatRequest {
+  int32 user_id = 1;    // 用户ID（用于查询订单）
+  string question = 2;   // 用户原始问题
+  int32 order_id = 3;   // 订单号（可选，前端可传递）
+}
+
+message ChatResponse {
+  string answer = 1;     // 生成的回答
+  string intent = 2;     // 分类后的意图（如order_query）
+}
