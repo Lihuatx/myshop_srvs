@@ -1,7 +1,7 @@
 host: '172.26.226.16'
 port: 8849
-namespace: '3d6a2af2-3f81-4819-815b-bb375034092b'
+namespace: 'cf71438e-6346-4779-8133-9f993ebe4503'
 user: 'nacos'
 password: 'nacos'
-dataid: 'userop_srv.json'
+dataid: 'userop-srv.json'
 group: 'pro'
