@@ -1,5 +1,5 @@
 host: '172.26.226.16'
-port: 8849
+port: 8848
 namespace: 'cf71438e-6346-4779-8133-9f993ebe4503'
 user: 'nacos'
 password: 'nacos'
