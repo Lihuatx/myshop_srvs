@@ -9,7 +9,7 @@ then
 	#先关闭进程
 	echo "shutting down ${srv_name}"
 	#这里不要使用kill -9，这个是强杀，我们需要优雅退出
-	if ps -a | grep $srv_name | awk '{print $1}' | xargs kill $1
+	if kill $(pgrep -f $srv_name)
 		then
 			echo "starting ${srv_name}"
 			#以后台方式启动，定向到dev/null 2>&1 &
