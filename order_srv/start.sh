@@ -1,5 +1,5 @@
 #定义一个变量
-srv_name="goods-srv-main"
+srv_name="order-srv-main"
 #添加可执行权限
 chmod +x ./$srv_name
 #重启，如果已经在则关闭重启
