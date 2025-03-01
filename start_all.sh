@@ -9,22 +9,22 @@ echo "启动 goods-srv 服务..."
 sleep 1
 
 echo "启动 inventory-srv 服务..."
-cd ../../inventory-srv/target
+cd ../../inventory_srv/target
 ./start.sh
 sleep 1
 
 echo "启动 order-srv 服务..."
-cd ../../order-srv/target
+cd ../../order_srv/target
 ./start.sh
 sleep 1
 
 echo "启动 user-srv 服务..."
-cd ../../user-srv/target
+cd ../../user_srv/target
 ./start.sh
 sleep 1
 
 echo "启动 userop-srv 服务..."
-cd ../../userop-srv/target
+cd ../../userop_srv/target
 ./start.sh
 
 echo "所有服务启动完成！"
